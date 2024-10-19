@@ -5,6 +5,10 @@ import streamlit as st
 # Leer los datos
 car_data = pd.read_csv('vehicles_us.csv')
 
+# Encabezado de la aplicación
+st.title("Análisis de anuncios de venta de coches")
+st.header("Explora los datos de anuncios de venta de coches")
+
 # Crear un botón para construir un histograma
 hist_button = st.button('Construir histograma')
 
